@@ -54,11 +54,15 @@ width: 100%;
 }
 /* Feed */
 #feed {
-	position: absolute;
+	position: fixed;
 	background-color: green;
 	width: 20%;
-	clear: both;
+	margin-top: 62px;
 }
 .feedbox {
-
+	padding: 10px;
+	border-bottom: 2px solid;
+}
+.filter{
+	padding: 20px;
 }
