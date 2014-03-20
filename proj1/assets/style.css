@@ -19,9 +19,20 @@ width: 100%;
 }
 
 /* NavBar */
-.nav li {
-	display:inline;
-	list-style-type: none;
-	margin:0;
-	padding:0;
+#navbar {
+	position: absolute;
+	background-color: blue;
+	width: 100%;
+}
+
+.navbox {
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.logo {
+	position: relative;
+	float: left;
+	padding: 20px;
 }
