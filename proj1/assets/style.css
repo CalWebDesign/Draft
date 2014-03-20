@@ -18,9 +18,15 @@ clear: both;
 width: 100%;
 }
 
+/* Page Format */
+.container {
+	position: absolute;
+	width: 100%;
+}
+
 /* NavBar */
 #navbar {
-	position: absolute;
+	position: fixed;
 	background-color: blue;
 	width: 100%;
 }
@@ -29,10 +35,22 @@ width: 100%;
 	position: relative;
 	float: left;
 	padding: 20px;
+	float: left;
 }
 
 .logo {
 	position: relative;
 	float: left;
 	padding: 20px;
+}
+
+/* Feed */
+#feed {
+	position: absolute;
+	background-color: green;
+	width: 20%;
+	clear: both;
+}
+.feedbox {
+
 }
