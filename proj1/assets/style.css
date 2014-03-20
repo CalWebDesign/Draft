@@ -57,13 +57,30 @@ width: 100%;
 	position: fixed;
 	background-color: green;
 	width: 25%;
-	margin-top: 134px;
+	margin-top: 150px;
 }
 .feedbox {
 	padding: 10px;
 	border-bottom: 1px solid gray;
-	background-color: white;
-	height: 30px
+	background-color: green;
+}
+
+.arrow-box {
+	position:relative;
+	width: 10px;
+	height: 10px;
+}
+
+.upvote {
+    font-size: 25px;
+    position: absolute;
+    bottom:-2px;
+}
+
+.downvote {
+    font-size: 25px;
+    position: absolute;
+    top: -2px;
 }
  /* Filter */
 #filter{
