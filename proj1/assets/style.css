@@ -44,6 +44,14 @@ width: 100%;
 	padding: 20px;
 }
 
+.searchbox {
+	background-color: red;
+	width: 200px;
+	height: 30px;
+	float: right;
+	margin: 20px 150px 0px 0px;
+	text-align: center;
+}
 /* Feed */
 #feed {
 	position: absolute;
