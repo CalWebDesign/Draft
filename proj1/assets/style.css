@@ -56,13 +56,37 @@ width: 100%;
 #feed {
 	position: fixed;
 	background-color: green;
-	width: 20%;
-	margin-top: 62px;
+	width: 25%;
+	margin-top: 134px;
 }
 .feedbox {
 	padding: 10px;
-	border-bottom: 2px solid;
+	border-bottom: 1px solid gray;
+	background-color: white;
+	height: 30px
 }
-.filter{
-	padding: 20px;
+ /* Filter */
+#filter{
+	position: fixed;
+	background-color: red;
+	width: 25%;
+	margin-top: 62px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.filterbox {
+	position: relative;
+	text-align: center;
+	background-color: purple;
+	padding: 10px;
+	width: 140px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 12px;
+}
+
+/* Content */
+.content {
+	background-color: yellow;
 }
